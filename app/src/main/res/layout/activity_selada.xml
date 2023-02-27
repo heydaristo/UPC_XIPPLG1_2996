@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEFF9800"
+    android:orientation="vertical"
+    tools:context=".SeladaActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#fff"
+        android:src="@drawable/selada"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="SELADA"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:background="#12FF00"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Selada adalah tanaman tahunan dari keluarga Asteraceae. Ini paling sering ditanam sebagai sayuran daun, tetapi kadang-kadang untuk batang dan bijinya. Selada paling sering digunakan untuk salad, meskipun juga terlihat pada jenis makanan lain, seperti sup, sandwich, dan bungkus; bisa juga di panggang."
+        android:background="#12FF00"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:textAlignment="textStart"
+        android:textColor="#000"
+        android:layout_margin="15dp"/>
+</LinearLayout>
